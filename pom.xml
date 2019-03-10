@@ -48,7 +48,7 @@
 		<dependency>
 			<groupId>io.confluent</groupId>
 			<artifactId>kafka-streams-avro-serde</artifactId>
-			<version>3.3.0</version>
+			<version>5.1.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.beam</groupId>
@@ -56,4 +56,11 @@
 			<version>2.11.0</version>
 		</dependency>
 	</dependencies>
+	<repositories>
+		<repository>
+			<id>confluent</id>
+			<name>Confluent</name>
+			<url>https://packages.confluent.io/maven/</url>
+		</repository>
+	</repositories>
 </project>
