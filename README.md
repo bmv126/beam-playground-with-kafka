@@ -1,4 +1,4 @@
-# beam-playground-with-kafka
+# beam-playground-with-kafka [![Build Status](https://travis-ci.org/bmv126/beam-playground-with-kafka.svg?branch=master)](https://travis-ci.org/bmv126/beam-playground-with-kafka)
 Reading avro messages from kafka with beam consumer and writing back to Kafka using kafka producer.
 
 A simple Beam Pipeline to show how the data can be read from kafka topic and written back to kafka topic.
